@@ -19,6 +19,7 @@ public class CameraController : MonoBehaviour
     private void Start()
     {
         startPosition = transform.position;
+        lastMouse = Input.mousePosition;
     }
 
     private void Update()
